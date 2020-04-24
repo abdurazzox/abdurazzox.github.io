@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'Airfool';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../font/ball-fonts.otf') format('otf'),
+        url('../font/ball-fonts.otf') format('otf');
+}

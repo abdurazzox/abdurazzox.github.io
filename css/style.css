@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #2B3B4E url("../img/bg-noise.jpg");
+}
+
+.row{
+    height: 100vh;
+}
+
+.window{
+    background: black;
+    height: 80vh;
+    z-index: 0;
+    cursor: url('../cursor/aim.cur'), pointer;
+}
+
+
+.ball{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: radial-gradient(circle at 15px 15px, #ff7d7d, #ff3737, #ff0000);
+    position: absolute;
+    top: 0;
+    opacity: 1;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 1001;
+    cursor: url('../cursor/aim.cur'), pointer;
+}
+
+.miss{
+    height: 6px;
+    width: 6px;
+    background: radial-gradient(circle at center, #111111, #2b2b2b, #000000);
+    border: 1px solid rgb(95, 95, 95);
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: auto;
+    border-radius: 50%;
+    z-index: 1000;
+    cursor: url('../cursor/aim.cur'), pointer;
+}
+
+.score{
+    border-bottom: 6px solid rgb(0, 183, 255);
+    margin-bottom: 20px;
+}
+
+.score p {
+    font-size: 18px;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+.score p span {
+    font-size: 20px;
+}
+.hit{
+    border-bottom: 2px dotted rgba(0, 183, 255, 0.575);
+    margin-bottom: 20px;
+}
+
+.hit p {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.63);
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+.hit p span {
+    font-size: 15px;
+    color: white;
+}
+.misses{
+    border-bottom: 2px dotted rgba(0, 183, 255, 0.575);
+    margin-bottom: 20px;
+}
+
+.misses p {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.63);
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+.misses p span {
+    font-size: 15px;
+    color: white;
+}
+
+.window-start{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: black;
+    z-index: 1003;
+    cursor: pointer;
+}
+
+.about{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+.about h1{
+   text-transform: uppercase;
+   color: rgb(34, 158, 207);
+   margin-bottom: 30px;
+   font-family: 'Segoe UI Black';
+   width: 100%;;
+}
+.about p{
+    color: rgb(168, 168, 168);
+    font-weight: 300;
+    margin: 3px;
+}
+.about p span{
+    color: white;
+    font-weight: 700;
+}
+
+.start{
+    width: 350px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 56%;
+    margin: auto;
+    text-align: center;
+}
+
+.start p{
+    font-size: 25px;
+    font-weight: 400;
+    color: rgb(65, 134, 161);
+    letter-spacing: 1.5px;
+}
+
+.timer{
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    z-index: 0;
+}
+.timer p{
+    color: rgb(122, 122, 122);
+}
+
+

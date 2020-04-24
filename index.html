@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="icon" href="./img/icon.png">
+    <script src="./js/jquery-3.4.1.js"></script>
+    <script src="./js/scripts.js"></script>
+    <title>Click the ball</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row justify-content-center align-items-center ">
+            <div class="col-6">
+                <div style="position: relative; overflow: hidden;" class="windows">
+                    <div class="window-start">
+                        <div class="about">
+                            <h1>Click the b<div style="position: relative; display: inline-block; width: 30px; height: 30px;background: radial-gradient(circle at 12px 12px, #7fcbfd, #3eb1fd, #139ffc);" class="ball">
+                            </div>ll</h1>
+                            <p>Длительность игры: <span>120</span> сек.</p>
+                            <p>За попадание: <span>+300</span> оч.</p>
+                            <p>За промах: <span>-100</span> оч.</p>
+                            <p>За каждый: <span>30</span> сек.</p>
+                        </div>
+                        <div class="start">
+                            <p>Нажмите, чтобы начать.</p>
+                        </div>
+                    </div>
+                    <div class="window">
+                    </div>
+                    <div style="display: none;" class="miss">
+                    </div>
+                    <div class="ball">
+                    </div>
+                    <div style="display: none; top: 56%; left: 23%; right: 36%; bottom: 13%;" class="ball ball1">
+                    </div>
+                    <div style="display: none;" class="ball ball2">
+                    </div>
+                    <div style="display: none;" class="ball ball3">
+                    </div>
+                    <div style="display: none;" class="ball ball4">
+                    </div>
+                    <div class="timer">
+                        <p><span>120</span> сек</p>
+                    </div>
+                </div>
+            </div>
+            <div style="margin-top: 100px;" class="col-2 align-self-start">
+                <div class="score w-100">
+                    <p class="d-flex justify-content-between w-100">Счет<span>0</span></p>
+                </div>
+                <div class="hit w-75 ">
+                    <p class="d-flex justify-content-between w-100">Попадание<span>0</span></p>
+                </div>
+                <div class="misses w-75">
+                    <p class="d-flex justify-content-between w-100">Промах<span>0</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
